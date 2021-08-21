@@ -1,3 +1,5 @@
+![Print memory screen shot](https://user-images.githubusercontent.com/3808/130337353-1e30cda3-4ea9-4a5c-aac6-dff730cf0a7f.png)
+
 Squanchy BASIC
 ==============
 This is a version of Color BASIC for the Radio Shack Color Computer. It has been reassembled to be at the top of RAM on a 64K machine.
