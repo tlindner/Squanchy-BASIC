@@ -1,0 +1,8 @@
+Changed ORG of Color BASIC to $DF00
+
+Modified startup routine to not change last 3 sam registers. This will keep the CoCo in All RAM mode.
+
+Change memory detection routine to set end of RAM at $DF00.
+
+Changed the MEM variable to be unsigned.
+
