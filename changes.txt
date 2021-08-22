@@ -6,3 +6,5 @@ Change memory detection routine to set end of RAM at $DF00.
 
 Changed the MEM variable to be unsigned.
 
+Commented out LA06E to LA070. This removes some NOPs and _doesn't_ set hi speed access for ROM mode.
+
