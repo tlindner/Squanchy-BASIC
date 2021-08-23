@@ -10,3 +10,4 @@ Commented out LA06E to LA070. This removes some NOPs and _doesn't_ set hi speed 
 
 Removed RAMSIZE check.
 
+Removed Microsoft Easter Egg. And additional "Microsoft" text after floating point constants.
