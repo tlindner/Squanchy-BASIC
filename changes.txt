@@ -13,3 +13,5 @@ Removed RAMSIZE check.
 Removed Microsoft Easter Egg. And additional "Microsoft" text after floating point constants.
 
 Added small RAM resident reset code to put SAM in RAM mode.
+
+Removed RAM vector trampolines.
