@@ -15,3 +15,7 @@ Removed Microsoft Easter Egg. And additional "Microsoft" text after floating poi
 Added small RAM resident reset code to put SAM in RAM mode.
 
 Removed RAM vector trampolines.
+
+Put correct opcode back in LINHDR-1
+
+Put label in for USRJMP in USR token jump table.
