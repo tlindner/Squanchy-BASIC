@@ -21,3 +21,5 @@ Put correct opcode back in LINHDR-1
 Put label in for USRJMP in USR token jump table.
 
 Removed unused MICROSOFT at end of Color BASIC message.
+
+Change CLEAR to have an unsigned first argument.
