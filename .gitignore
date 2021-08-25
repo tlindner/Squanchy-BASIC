@@ -3,3 +3,8 @@
 *.bin
 *.lst
 *.sym
+*.wav
+test/CB-DG.bas
+test/CB-FN.bas
+test/deep-fornext
+test/deep-gosub
