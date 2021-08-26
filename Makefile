@@ -1,7 +1,13 @@
-all: bas13.bin install.asm SQUANCHY.DSK
+all: calc_org bas13.bin install.asm SQUANCHY.DSK
 
-bas13.bin: equates.asm bas.asm
-	lwasm -o $@ $^ --list=$@.lst --symbol-dump=$@.sym
+calc_org: calc_org.c
+	cc -Wall -Werror $^ -o $@
+
+bas13.bin: equates.asm bas.asm calc_org bas13.bin.sym
+# Determine length of ROM
+	lwasm -D BASIC_START=0 -o /dev/null equates.asm bas.asm --symbol-dump=$@.sym
+# Assemble again with perfect offset
+	lwasm -D BASIC_START=`./calc_org bas13.bin.sym` -o $@ equates.asm bas.asm --list=$@.lst --symbol-dump=$@.sym
 
 install.bin: bas13.bin.sym install.asm
 	lwasm -o $@ $^ --list=$@.lst --symbol-dump=$@.sym
