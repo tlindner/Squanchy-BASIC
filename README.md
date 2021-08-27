@@ -1,4 +1,4 @@
-![Print memory screen shot](https://user-images.githubusercontent.com/3808/130337353-1e30cda3-4ea9-4a5c-aac6-dff730cf0a7f.png)
+![Print memory screen shot](https://user-images.githubusercontent.com/3808/131069348-f74a8ee2-414b-41bf-a1ec-1d5e8fbf3736.png)
 
 Squanchy BASIC
 ==============
@@ -19,15 +19,15 @@ Usage:
 ======
 On a Color Computer (with 64K of RAM) or CoCo 3 type:
 ```RUN "SQUANCHY"```
-The computer will reboot to Color BASIC.
+The computer will reboot to Squanchy BASIC.
 
 Current problems:
 =================
-Simple programs work. In testing mode.
+Color BASIC works after must testing. Starting the process to include Extended Color BASIC.
 
 To Do List:
 ===========
-1. Test Color BASIC fully.
+1. ~~Test Color BASIC fully.~~
 2. Add Extended Color BASIC
 3. Add Disk BASIC
 4. Modify ROM to be even more compact.
