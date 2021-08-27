@@ -7,5 +7,7 @@ calc_org
 *.wav
 test/CB-DG.bas
 test/CB-FN.bas
+test/CB-DE.bas
 test/deep-fornext
 test/deep-gosub
+test/deep-expression
