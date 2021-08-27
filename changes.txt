@@ -23,3 +23,5 @@ Put label in for USRJMP in USR token jump table.
 Removed unused MICROSOFT at end of Color BASIC message.
 
 Change CLEAR to have an unsigned first argument.
+
+Corrected operator precedence table to refer to the labels rather than the ROM offsets.
