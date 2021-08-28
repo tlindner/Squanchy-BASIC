@@ -25,3 +25,7 @@ Removed unused MICROSOFT at end of Color BASIC message.
 Change CLEAR to have an unsigned first argument.
 
 Corrected operator precedence table to refer to the labels rather than the ROM offsets.
+
+Got rid of a NOP in BAWMST
+
+Got rid of a nop in array eval.
