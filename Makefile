@@ -12,8 +12,9 @@ bas13.bin: equates.asm bas.asm calc_org bas13.bin.sym
 install.bin: bas13.bin.sym install.asm
 	lwasm -o $@ $^ --list=$@.lst --symbol-dump=$@.sym
 
-SQUANCHY.DSK: s.bas squanchy.bas install.bin bas13.bin
+SQUANCHY.DSK: readme.bas s.bas squanchy.bas install.bin bas13.bin
 	decb dskini SQUANCHY.DSK
+	decb copy -t readme.bas SQUANCHY.DSK,README.BAS
 	decb copy -t s.bas SQUANCHY.DSK,S.BAS
 	decb copy -t squanchy.bas SQUANCHY.DSK,SQUANCHY.BAS
 	decb copy -2b install.bin SQUANCHY.DSK,INSTALL.BIN
