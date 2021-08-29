@@ -5,15 +5,15 @@ calc_org: calc_org.c
 
 sb.bin: equates.asm bas.asm calc_org
 # Determine length of ROM
-	lwasm -D BASIC_START=0 -o /dev/null equates.asm bas.asm --symbol-dump=$@.sym
+	lwasm -D COLBASIC -D BASIC_START=0 -o /dev/null equates.asm bas.asm --symbol-dump=$@.sym
 # Assemble again with perfect offset
-	lwasm -D BASIC_START=`./calc_org sb.bin.sym` -o $@ equates.asm bas.asm --list=$@.lst --symbol-dump=$@.sym
+	lwasm -D COLBASIC -D BASIC_START=`./calc_org sb.bin.sym` -o $@ equates.asm bas.asm --list=$@.lst --symbol-dump=$@.sym
 
 ssb.bin: equates.asm bas.asm calc_org
 # Determine length of ROM
-	lwasm -D COCO3 -D BASIC_START=0 -o /dev/null equates.asm bas.asm --symbol-dump=$@.sym
+	lwasm -D COLBASIC -D COCO3 -D BASIC_START=0 -o /dev/null equates.asm bas.asm --symbol-dump=$@.sym
 # Assemble again with perfect offset
-	lwasm -D COCO3 -D BASIC_START=`./calc_org ssb.bin.sym` -o $@ equates.asm bas.asm --list=$@.lst --symbol-dump=$@.sym
+	lwasm -D COLBASIC -D COCO3 -D BASIC_START=`./calc_org ssb.bin.sym` -o $@ equates.asm bas.asm --list=$@.lst --symbol-dump=$@.sym
 
 esb.bin: extbas.asm equates.asm bas.asm calc_org
 # Determine length of ROM
