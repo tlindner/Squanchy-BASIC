@@ -26,6 +26,17 @@ Change CLEAR to have an unsigned first argument.
 
 Corrected operator precedence table to refer to the labels rather than the ROM offsets.
 
-Got rid of a NOP in BAWMST
+Got rid of a NOP in BAWMST.
 
-Got rid of a nop in array eval.
+Got rid of a NOP in array eval.
+
+Add include for ECB into basic source file
+
+Change CB warm reset code to jump to ECB
+
+Change ECB to not write it's warm start handler.
+
+Got rid of NOP in XBAWMST.
+
+Conditionally added ECB RAM vectors to CB
+

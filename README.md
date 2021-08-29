@@ -18,10 +18,10 @@ https://sourceforge.net/projects/toolshed/
 Usage:
 ======
 On a Color Computer (with 64K of RAM) or CoCo 3 type:
-```RUN "SQUANCHY"```
+```RUN "SB"```
 The computer will reboot to Squanchy BASIC.
 
-Current problems:
+Current progress:
 =================
 Color BASIC works after must testing. Starting the process to include Extended Color BASIC.
 
