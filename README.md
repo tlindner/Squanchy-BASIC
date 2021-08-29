@@ -23,7 +23,7 @@ The computer will reboot to Squanchy BASIC.
 
 Current progress:
 =================
-Color BASIC works after must testing. Starting the process to include Extended Color BASIC.
+Color BASIC works after much testing. Starting the process to include Extended Color BASIC.
 
 To Do List:
 ===========
