@@ -1,4 +1,4 @@
-Changed ORG of Color BASIC to $DF00
+Changed ORG of Color BASIC to be a label.
 
 Modified startup routine to not change last 3 sam registers. This will keep the CoCo in All RAM mode.
 
@@ -16,7 +16,7 @@ Added small RAM resident reset code to put SAM in RAM mode.
 
 Removed RAM vector trampolines.
 
-Put correct opcode back in LINHDR-1
+Put correct opcode back in LINHDR-1.
 
 Put label in for USRJMP in USR token jump table.
 
@@ -32,11 +32,13 @@ Got rid of a NOP in array eval.
 
 Add include for ECB into basic source file
 
-Change CB warm reset code to jump to ECB
+Change CB warm reset code to jump to ECB.
 
 Change ECB to not write it's warm start handler.
 
 Got rid of NOP in XBAWMST.
 
-Conditionally added ECB RAM vectors to CB
+Conditionally added ECB RAM vectors to CB.
+
+Conditionally assembled ECB exponential function directly into CB.
 

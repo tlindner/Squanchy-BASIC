@@ -1526,7 +1526,12 @@ LAA51	FCB	$79
 	FCB	$7B
 	FDB	LBB91	/
 	FCB	$7F
-	FDB	$011D	EXPONENTIATION
+*	FDB	$011D	EXPONENTIATION
+	ifdef EXTBASIC
+	fdb L8489 ECB Exponentiation subroutine
+	else
+	fdb LB277 CB Syntax Error
+	endif
 	FCB	$50
 	FDB	$B2D5	AND
 	FCB	$46
