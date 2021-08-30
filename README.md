@@ -33,7 +33,7 @@ To Do List:
 4. Modify ROM to be even more compact.
 5. Fix Color BASIC bugs.
 
-![Memory Table](https://github.com/tlindner/Squanchy-BASIC/files/7078124/Memory.Table.pdf)
+<embed src="https://github.com/tlindner/Squanchy-BASIC/files/7078124/Memory.Table.pdf" width="800px" height="2100px" />
 
 --
 tim lindner
