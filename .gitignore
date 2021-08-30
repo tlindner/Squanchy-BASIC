@@ -8,6 +8,7 @@ calc_org
 test/CB-DG.bas
 test/CB-FN.bas
 test/CB-DE.bas
+test/ECB-DG.bas
 test/deep-fornext
 test/deep-gosub
 test/deep-expression
