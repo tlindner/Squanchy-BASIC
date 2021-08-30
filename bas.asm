@@ -136,7 +136,7 @@ LA0B6	STX	3,U	* SET EXBAS COMMAND INTERPRETATION
 	endif
 
 * copy rom to ram program to ram
-	ldx	#rstpgm	point x to rom source data
+SBASRS	ldx	#rstpgm	point x to rom source data
 	ldu	#RSTRAM	point u to ram destination
 	ldb	#7	move 7 bytes
 	jsr	>LA59A	move 7 bytes from rom to ram
@@ -637,7 +637,6 @@ LA42D
 	ifdef EXTBASIC
 	jsr XVEC8
 	endif
-	ifdef COLBASIC
 	LDA	DEVNUM	GET DEVICE NUMBER
 	CLR	DEVNUM	SET TO SCREEN
 	INCA	*
@@ -648,7 +647,6 @@ LA42D
 	LDA	CINCTR	GET CHARACTER BUFFER CTR
 	BEQ	LA444	WRITE END OF PROG BLOCK IF BUFFER EMPTY
 	JSR	>LA2A8	WRITE A BLOCK TO TAPE
-	endif
 LA444	LDB	#$FF	END OF FILE TYPE BLOCK NUMBER
 	JSR	>LA2AA	WRITE END OF FILE TYPE BLOCK
 LA449	CLR	FILSTA	CASSETTE FILE STATUS CLOSED
@@ -4628,6 +4626,11 @@ LBFE1	FCB	$83,$49,$0F,$DA,$A2	* 2*PI
 * The ROM reset routine in a CoCo 3 requires this byte to be $55
 * if we want to warm start
 	fcb $55 ($FEED)
-	zmb 18
+	lbra SW3VEC
+	lbra SW2VEC
+	lbra FRQVEC
+	lbra IRQVEC
+	lbra SWIVEC
+	lbra NMIVEC
 	endif
 BASIC_END equ *

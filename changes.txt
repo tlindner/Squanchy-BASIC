@@ -44,4 +44,3 @@ Conditionally assembled ECB exponential function directly into CB.
 
 Remove masthead strings from CB if assembling ECB.
 
-ECB close file replaces CB close file.

@@ -50,4 +50,4 @@ SQUANCHY.DSK: readme.bas esb.bas sb.bas instsb.bin instssb.bin sb.bin ssb.bin in
 	decb copy -t readme.bas SQUANCHY.DSK,README.BAS
 
 clean:
-	-rm -f *.bin *.lst *.sym SQUANCHY.DSK
+	-rm -f *.bin *.lst *.sym calc_org SQUANCHY.DSK
