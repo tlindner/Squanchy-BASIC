@@ -44,3 +44,6 @@ Conditionally assembled ECB exponential function directly into CB.
 
 Remove masthead strings from CB if assembling ECB.
 
+Removed some more RAM vectors from ECB.
+
+Removed a NOP from ECB.
