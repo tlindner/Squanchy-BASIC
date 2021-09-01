@@ -33,6 +33,7 @@ To Do List:
 4. Modify ROM to be even more compact.
 5. Fix Color BASIC bugs.
 
+![Memory Map](https://user-images.githubusercontent.com/3808/131375053-26330e0e-183e-43ba-a4ab-898608899228.png)
 
 --
 tim lindner
