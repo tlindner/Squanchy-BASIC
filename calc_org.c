@@ -26,8 +26,8 @@ int main( int argc, char *argv[] )
 	{
 		if( strncmp( "BASIC_END", line, 9) == 0 )
 		{
-			long value = strtol( line+read-5, NULL, 16 );
-			printf( "%ld\n", 0xff00 - value - 1 );
+			unsigned long value = strtol( line+read-5, NULL, 16 );
+			printf( "%ld\n", 65280 - (value - 32768));
 			break;
 		}
 	}
