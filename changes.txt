@@ -47,3 +47,5 @@ Remove masthead strings from CB if assembling ECB.
 Removed some more RAM vectors from ECB.
 
 Removed a NOP from ECB.
+
+Change jump address for Disk BASIC in Extended BASIC.
