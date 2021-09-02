@@ -18,17 +18,21 @@ https://sourceforge.net/projects/toolshed/
 Usage:
 ======
 On a Color Computer (with 64K of RAM) or CoCo 3 type:
-```RUN "SB"```
-The computer will reboot to Squanchy BASIC.
+
+```RUN "SB"``` The computer will reboot to Squanchy BASIC.
+
+```RUN "ESB"``` The computer will reboot to Extended Squanchy BASIC.
+
+```RUN "DESB"``` The computer will reboot to Disk Extended Squanchy BASIC.
 
 Current progress:
 =================
-Color BASIC works after much testing. Starting the process to include Extended Color BASIC.
+Started integrating Disk BASIC.
 
 To Do List:
 ===========
 1. ~~Test Color BASIC fully.~~
-2. Add Extended Color BASIC
+2. ~~Add Extended Color BASIC~~
 3. Add Disk BASIC
 4. Modify ROM to be even more compact.
 5. Fix Color BASIC bugs.
