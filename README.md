@@ -33,7 +33,7 @@ To Do List:
 ===========
 1. ~~Test Color BASIC fully.~~
 2. ~~Add Extended Color BASIC~~
-3. ~~~Add Disk BASIC~~~
+3. ~~Add Disk BASIC~~~
 4. Modify ROM to be even more compact.
 5. Fix Color BASIC bugs.
 
