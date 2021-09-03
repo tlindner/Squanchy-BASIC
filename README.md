@@ -27,13 +27,13 @@ On a Color Computer (with 64K of RAM) or CoCo 3 type:
 
 Current progress:
 =================
-Started integrating Disk BASIC.
+Searching for opprotunities to reduce code size.
 
 To Do List:
 ===========
 1. ~~Test Color BASIC fully.~~
 2. ~~Add Extended Color BASIC~~
-3. Add Disk BASIC
+3. ~~~Add Disk BASIC~~~
 4. Modify ROM to be even more compact.
 5. Fix Color BASIC bugs.
 
