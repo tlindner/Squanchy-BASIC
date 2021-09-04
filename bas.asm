@@ -1586,7 +1586,7 @@ LAA51	FCB	$79
 	fdb LB277 CB Syntax Error
 	endif
 	FCB	$50
-	FDB	$B2D5	AND
+	FDB	LB2D5	AND
 	FCB	$46
 	FDB	LB2D4	OR
 *

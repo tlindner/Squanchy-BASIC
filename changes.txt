@@ -53,3 +53,5 @@ Change jump address for Disk BASIC in Extended BASIC.
 Changed DECB to use hard coded JMPs rather than RAM vectors.
 
 Changed DECB to run to RAM aware reset routine.
+
+Fixed operator table to use proper label for AND rather than hard coded address.
