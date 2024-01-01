@@ -36,6 +36,7 @@ To Do List:
 3. ~~Add Disk BASIC~~
 4. Modify ROM to be even more compact.
 5. Fix Color BASIC bugs.
+6. Move documented subroutines to the end of the ROM.
 
 ![Memory Map](https://user-images.githubusercontent.com/3808/131375053-26330e0e-183e-43ba-a4ab-898608899228.png)
 
